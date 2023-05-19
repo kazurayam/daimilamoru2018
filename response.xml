@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SOAP-ENV:Body>
+    <GenWs03ConsultadeDeudaCC.ExecuteResponse xmlns="GeoTribUy">
+      <Buenpaga>S</Buenpaga>
+      <Sdtcoleccioncobranza>
+        <SDT_ColeccionCobranzaItem>
+          <Paga>N</Paga>
+          <Permitido>S</Permitido>
+          <Anio>2024</Anio>
+          <Vencimiento>20/11/24</Vencimiento>
+          <CodigoConcepto>200</CodigoConcepto>
+          <Concepto>PATENTE</Concepto>
+          <Cuota>6/6</Cuota>
+          <Importe>1333.33</Importe>
+          <Linea>1</Linea>
+        </SDT_ColeccionCobranzaItem>
+        <SDT_ColeccionCobranzaItem>
+          <Paga>N</Paga>
+          <Permitido>N</Permitido>
+          <Anio/>
+          <Vencimiento/>
+          <CodigoConcepto>301</CodigoConcepto>
+          <Concepto>ADELANTO DE CUOTAS PAT</Concepto>
+          <Cuota/>
+          <Importe>-133.33</Importe>
+          <Linea>2</Linea>
+        </SDT_ColeccionCobranzaItem>
+      </Sdtcoleccioncobranza>
+      <Auxiliarcobro>1046147</Auxiliarcobro>
+      <Codigoretorno>000</Codigoretorno>
+      <Mensajeretorno/>
+    </GenWs03ConsultadeDeudaCC.ExecuteResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
